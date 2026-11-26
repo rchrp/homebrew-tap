@@ -1,9 +1,9 @@
 cask "blame" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.3.2"
-  sha256 arm:   "df15af3bbebbc11f4740b209c0b9d46df11a8e0134f8d3b82a6a6acc019d6bc5",
-         intel: "37f328ce6b561cba3f9973ec614a7bd237673026806477f594c16a4476847c2d"
+  version "1.3.3"
+  sha256 arm:   "c8e53a62bd59a267abf9d16b189f6ffc1ebfc06401dcea4202a0cf4ebb79ef80",
+         intel: "a9af13248e75e3e069fb4b974fc2e52316c651a3ec62b2a27b5492c33d6747f2"
 
   url "https://github.com/rchrp/Blame/releases/download/v#{version}/blame-mac-#{arch}.dmg"
   name "Blame"
